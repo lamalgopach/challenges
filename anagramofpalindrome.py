@@ -44,10 +44,8 @@ def is_anagram_of_palindrome(word):
             a += 1
         if a > 1:
             return False
-        # elif a > 1 and len(word) == 2:
-        #     return True
-    else:
-        return True    
+
+    return True    
 
 
 
