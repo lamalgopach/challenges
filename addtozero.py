@@ -28,8 +28,6 @@ def add_to_zero(nums):
     for i in nums:
         if -i in nums_set:
             return True
-        elif i == 0:
-            return True
     return False
 
 
