@@ -30,7 +30,6 @@ Examples:
 def is_anagram_of_palindrome(word):
     """Is the word an anagram of a palindrome?"""
 
-    set_word = set(word)
     word_dict = {}
     for letter in word:
         if letter not in word_dict:
